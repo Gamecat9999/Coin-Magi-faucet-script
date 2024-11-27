@@ -176,6 +176,7 @@ function validateForm() {
     <h2>Faucet balance</h2>
     <p id="balance">
         <?php
+// you want to change this here if you want to pull up the balance of your faucet account on the page. Change the part that says katfaucet to your username.
             $url = 'https://magi.duinocoin.com/balances/katfaucet';
             $json = @file_get_contents($url);
             if ($json === FALSE) {
@@ -233,10 +234,10 @@ if (file_exists($blacklistFile)) {
 }
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $username = "katfaucet";
+    $username = "YOURUSERNAME_HERE";
     $recipient = $_POST["username"];
-    $password = "Stayout1";
-    $memo = "KatFaucet Reward";
+    $password = "PASSWORD_HERE";
+    $memo = "Magi faucet claim";
 
     $currentTime = time(); // Get the current time
     $ipAddress = $_SERVER['REMOTE_ADDR']; // Get the IP address of the user
