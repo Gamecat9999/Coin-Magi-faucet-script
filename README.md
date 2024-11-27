@@ -1,2 +1,3 @@
 # Coin-Magi-faucet-script
 This is a variation of the katfaucet for duinocoin that instead is for XMG aka Coin MAGI. pretty simple to use. Just fill out the fields that need your username and password and then bam, faucet. its a good idea to also change the code that pulls up the faucet balance to your username as well. Also you will need to get your own recaptcha key but thats pretty easy. Hosting is kinda hard, youll need to probably pay or self host it. No live version as of 11/27/24 but hopefully soon. Ask if you need help with something or have any questions!
+![image](https://github.com/user-attachments/assets/a867b37e-3ba7-4f9b-8c64-0f319040f09e)
